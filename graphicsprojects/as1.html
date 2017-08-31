@@ -1,0 +1,36 @@
+<head>
+  <style>
+    body {
+      background-color: linen;
+    }
+    a:link    {color:black; background-color:transparent; text-decoration:none}
+    a:visited {color:black; background-color:transparent; text-decoration:none}
+    a:hover   {color:black; background-color:transparent; text-decoration:underline}
+    a:active  {color:black; background-color:transparent; text-decoration:underline}
+  </style>
+</head>
+<body>
+<center>
+<h1> Shading </h1>
+<p> My partner and I created a program that simulates different lights illumniating a sphere. </p>
+<h3> an image showing diffuse only shading from a single light source : </h3>
+<img src="as1imgs/kd_direct_light.jpeg" height="450px" width="450px">
+<p> command : ./as1 -kd .78 .08 .52 -dl -1 -1 -1 1 1 1 </p>
+<h3> an image showing specular only shading from a single directional light source : </h3>
+<img src="as1imgs/ks_direct_light.jpeg" height="450px" width="450px">
+<p> command : ./as1 -ks .416 .35 .8 -dl 1 -1 1 1 1 1 </p>
+<h3> an image showing specular only shading from a single point light source : </h3>
+<img src="as1imgs/ks_point_light.jpeg" height="450px" width="450px">
+<p> command : ./as1 -ks 0 .74 1 -pl 1 1 1 1 1 1 </p>
+<h3> an image showing combined specular and diffuse shading : </h3>
+<img src="as1imgs/diffuse_specular_2.jpeg" height="450px" width="450px">
+<p> command : ./as1 -kd .7 .5 .2 -ks .2 1 1 -sp 40 -pl 1 1 1 .21 .6 .9 -ka .4 .2 .5 -dl 1 1 1 .3 .3 .3 </p>
+<h3> an image showing anisotropic specularity specularity : </h3>
+<img src="as1imgs/spu_spv.jpeg" height="450px" width="450px">
+<p> command : ./as1 -kd .86 .62 86 -ks .28 .82 .8 -sp 2 -dl -1 -1 -1 1 1 1 -pl 1 1 -1 -1 1 1 -spu 50 -spv 10 </p>
+<h3> an image with multiple light sources : </h3>
+<img src="as1imgs/LucaLush.jpeg" height="450px" width="450px">
+<p> command : ./as1 -ks .69 .87 .9 -dl -1 -1 -1 1 1 1 -sp 2 -pl 5 -1 2 1 .62 .47 -dl -3 8 9 0.29 0 .18 </p>
+<h3><a href="index.html">back to listing</a></div></h3>
+</center>
+</body>
