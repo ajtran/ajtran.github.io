@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.triple {
+  width: 298px;
+}
+
+.double {
+  width: 448px;
+}
+
+.partial {
+  width: 675px;
+}
+
+.single {
+  width: 900px;
+}
+
+.chapter {
+  text-align: center;
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list {
+  padding-left: 120px;
+  text-align: left;
+  width: max-content;
+  margin: auto;
+}
